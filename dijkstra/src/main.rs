@@ -1,5 +1,5 @@
 
 fn main() {
-    dijkstra::djikstras_algorithm();
+    println!("RESULT:{}", dijkstra::djikstras_algorithm(1,6));
     println!("Hello, world!");
 }
